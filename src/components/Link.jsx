@@ -7,7 +7,7 @@ const Link = () => {
 				href='/temurbek_samatov_frontend_developer.pdf'
 				style={{ zIndex: 1000 }}
 				className='circle relative w-64 h-64 flex items-center justify-center'
-				download={'temurbek_samatov_frontend_developer.pdf'}
+				download
 			>
 				<a href='/' className='text-gray-200 font-mono text-2xl'>
 					{'<Download CV/>'}

@@ -2,12 +2,7 @@ import './style.css'
 
 function Btnfirst({ text = 'btn', link = '#' }) {
 	return (
-		<a
-			href={link}
-			target='_blank'
-			rel='noreferrer'
-			download={'temurbek_samatov_frontend_developer.pdf'}
-		>
+		<a href={link} target='_blank' rel='noreferrer' download>
 			<button class='btn rel '>
 				<span class='text'>Text</span>
 				<span class='flip-front'>{text}</span>
