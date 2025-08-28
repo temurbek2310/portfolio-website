@@ -4,7 +4,7 @@ const Link = () => {
 	return (
 		<div className='relative flex items-center justify-center h-max py-10'>
 			<a
-				href='temurbek_samatov_frontend_developer.pdf'
+				href='/temurbek_samatov_frontend_developer.pdf'
 				style={{ zIndex: 1000 }}
 				className='circle relative w-64 h-64 flex items-center justify-center'
 				download={'temurbek_samatov_frontend_developer.pdf'}

@@ -10,7 +10,7 @@ const NavBar = () => {
 				<div className='transition-all'>
 					<Btnfirst
 						text='Download Cv'
-						link={'temurbek_samatov_frontend_developer.pdf'}
+						link={'/temurbek_samatov_frontend_developer.pdf'}
 					/>
 				</div>
 			</header>
