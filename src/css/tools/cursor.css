@@ -1,0 +1,15 @@
+.cursor-blob {
+    background: radial-gradient(circle closest-side, transparent, transparent, #6330fe);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* cursor: pointer !important; */
+    z-Index: 1;
+}
+.cursor-blob-anim {
+    animation: blob 10s infinite;
+    /* mix-Blend-Mode: 'multiply'; */
+    /* cursor: pointer; */
+    transform: 'translate(-50%, -50%)';
+    /* pointer-Events: 'none'; */
+}

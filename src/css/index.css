@@ -1,0 +1,16 @@
+/* blocks */
+@import url('./blocks/home.css');
+@import url('./blocks/skills.css');
+@import url('./blocks/navbar.css');
+@import url('./blocks/header.css');
+
+/* tools */
+@import url('./tools/responsive.css');
+@import url('./tools/animations.css');
+@import url('./tools/cubanimation.css');
+@import url('./tools/cursor.css');
+
+/* globall  */
+@import url("./generall/style.css");
+
+

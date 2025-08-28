@@ -1,0 +1,26 @@
+.cub-grid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap:0;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto  auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.cube__container div span {
+    width: 47px;
+    height: 47px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #010122;
+    z-index: 2;
+    transition: 1.5s;
+}
+
+.cube__container div span:hover {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #1f1d52;
+    transition: 0s;
+}
+

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@media (max-width: 990px) {
+    .skills {
+        width: 90vw;
+    }
+
+    .skills__card {
+        margin-bottom: 40px;
+        margin: auto 10px;
+        padding: 20px;
+        border-radius: 15px;
+        transition: all .5s;
+        border: 2px solid #1f18e2;
+        border-radius: 50% !important;
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    .skills__card {
+        margin-bottom: 40px;
+        padding: 20px;
+        padding: 40px 10px 10px 10px !important;
+        border-radius: 15px;
+        transition: all .5s;
+        border: 2px solid #1f18e2;
+        border-radius: 50% !important;
+
+        .p-incard {
+            transform: scale(1);
+            transition: all 0.5s;
+        }
+    }
+
+    .skills {
+        width: 90vw !important;
+        padding: 10px !important;
+    }
+
+    .in-sign {
+        padding: 10px !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .in-sign>div {
+        padding: 20px !important;
+    }
+
+    .in-sign div {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .skills {
+        margin-top: 150px;
+    }
+}
+
+
+.skills {
+    position: absolute;
+    width: 80vw;
+    z-index: 2;
+    padding: 40px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: border .5s;
+}
+
+.skills:hover {
+    border-color: var(--dynamic-color);
+}
+
+
+
+.skills__card {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid #1f1d52;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all .5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__card p {
+    transform: scale(0);
+}
+
+
+
+
+.skills__card:hover {
+    padding: 20px;
+    border-radius: 15px;
+    transition: all .5s;
+    border: 2px solid #1f18e2;
+    border-radius: 50%;
+
+    .p-incard {
+        transform: scale(1);
+        transition: all 0.5s;
+    }
+}
+
+#skills {
+    transition: all 1s !important;
+}
+#skills:hover {
+    transition: all 1s !important;
+    border-radius: 50% !important;
+}
+
+.p-incard {
+    width: max-content;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #fff;
+}
+

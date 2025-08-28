@@ -1,0 +1,37 @@
+  .card {
+      position: relative !important;
+      z-index: 12;
+      font-weight: bold;
+      padding: 1em;
+      text-align: right;
+      color: #181a1a;
+      background-color: rgba(2, 1, 65, 0.398);
+
+      width: max-content;
+      height: max-content;
+      box-shadow: 0 2px 5px #00000099;
+
+      border-radius: 10px;
+      background-size: cover;
+
+      position: relative;
+
+      transition-property: transform, box-shadow !important;
+      transition-timing-function: ease-out;
+      transform: rotate3d(0) !important;
+  }
+
+  .card:hover {
+      transition-duration: 150ms;
+      box-shadow: 0 5px 20px 5px #00000044;
+  }
+
+  .card .glow {
+      position: absolute !important;
+      width: 100% !important;
+      height: 100% !important;
+      left: 0;
+      top: 0;
+
+      background-image: radial-gradient(circle at 50% -20%, #ffffff22, #0000000f);
+  }
