@@ -3,23 +3,23 @@ function SocialCard() {
 		<div className='flex gap-5 md:mt-24 sm:flex-row flex-col'>
 			<div>
 				<a
-					href='https://t.me/useername_copied'
+					href='https://t.me/aesthetic_max'
 					className='rounded-2xl flex items-center p-2 w-64 rel mb-2  hover:scale-105 transition-all generall__border'
 				>
 					<i class='fa-brands fa-telegram rounded-fullmd:w-12 md:h-12  mr-3 md:text-5xl text-4xl'></i>
 					<div className='rounded-2xl'>
 						<div className='font-semibold text-sm text-start'>Temur Bek</div>
-						<div className='text-xs text-gray-500'>@useername_copied</div>
+						<div className='text-xs text-gray-500'>@aesthetic_max</div>
 					</div>
 				</a>
 				<a
-					href='https://www.instagram.com/uspa_jr'
+					href='https://www.instagram.com/t3mur.955/'
 					className='rounded-2xl flex items-center p-2 w-64 rel  hover:scale-105 transition-all generall__border'
 				>
 					<i class='fa-brands fa-instagram rounded-full md:w-12 md:h-12  mr-3 md:text-5xl text-4xl'></i>
 					<div className='rounded-2xl'>
 						<div className='font-semibold text-sm text-start'>Temur Bek</div>
-						<div className='text-xs text-gray-500'>@uspa_jr</div>
+						<div className='text-xs text-gray-500'>@t3mur.955</div>
 					</div>
 				</a>
 			</div>

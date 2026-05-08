@@ -25,37 +25,37 @@ function Skils() {
 					</div>
 					<div className='w-full md:p-20 d-flex justify-center'>
 						<div className='generall__border p-5 w-max text-xl'>
-							<h3 data-cursor-style>Languages 🥱 </h3>
+							<h3 data-cursor-style>Languages </h3>
 						</div>
 						<div className='flex md:justify-start gap-5 justify-center items-center w-full flex-wrap'>
 							<Card data={skills__lang} />
 						</div>
 						<div className='generall__border p-5 w-max text-xl'>
-							<h3 data-cursor-style>Libs 😊</h3>
+							<h3 data-cursor-style>Libs </h3>
 						</div>
 						<div className='flex md:justify-start gap-5 justify-center items-center w-full flex-wrap'>
 							<Card data={skills__libs} />
 						</div>
 						<div className='generall__border p-5 w-max text-xl'>
-							<h3 data-cursor-style>Libs functionlaty 👌</h3>
+							<h3 data-cursor-style>Libs functionality </h3>
 						</div>
 						<div className='flex md:justify-start gap-5 justify-center items-center w-full flex-wrap'>
 							<Card data={skills__libs_functionlaty} />
 						</div>
 						<div className='generall__border p-5 w-max text-xl'>
-							<h3 data-cursor-style>data base 🔎</h3>
+							<h3 data-cursor-style>DataBase </h3>
 						</div>
 						<div className='flex md:justify-start gap-5 justify-center items-center w-full flex-wrap'>
 							<Card data={skills__databases} />
 						</div>
 						<div className='generall__border p-5 w-max text-xl'>
-							<h3 data-cursor-style>texnologies ✌️</h3>
+							<h3 data-cursor-style>Technologies </h3>
 						</div>
 						<div className='flex md:justify-start gap-5 justify-center items-center w-full flex-wrap'>
 							<Card data={skills__texnologys} />
 						</div>
 						<div className='generall__border p-5 w-max text-xl'>
-							<h3 data-cursor-style>Version Control 😎</h3>
+							<h3 data-cursor-style>Version Control </h3>
 						</div>
 						<div className='flex md:justify-start gap-5 justify-center items-center w-full flex-wrap'>
 							<Card data={skills__vertioncontrol} />
